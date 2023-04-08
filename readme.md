@@ -13,7 +13,7 @@ This repository contains a chat bot based on T5 large language model, fine tuned
 * PyPDF2
 
 ### Folder Structure
-`
+```
 ├── chat_flan.ipynb
 ├── dialogGPT
 │   ├── app.py
@@ -23,4 +23,4 @@ This repository contains a chat bot based on T5 large language model, fine tuned
 │   │   └── log.csv
 │   └── index.json
 └── readme.md
-`
+```
