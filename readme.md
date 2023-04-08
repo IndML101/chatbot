@@ -11,3 +11,16 @@ This repository contains a chat bot based on T5 large language model, fine tuned
 * llama-index
 * gradio
 * PyPDF2
+
+### Folder Structure
+`
+├── chat_flan.ipynb
+├── dialogGPT
+│   ├── app.py
+│   ├── docs
+│   │   └── Franz_Kafka_The_Metamorphosis.pdf
+│   ├── flagged
+│   │   └── log.csv
+│   └── index.json
+└── readme.md
+`

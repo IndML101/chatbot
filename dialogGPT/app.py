@@ -9,7 +9,7 @@ import gradio as gr
 
 class customLLM(LLM):
     # model_name = "microsoft/DialoGPT-medium"
-    model_name = "google/flan-t5-large"
+    model_name = "google/flan-t5-small"
     pipeline = pipeline("text2text-generation", model=model_name, device=0, model_kwargs={"torch_dtype":torch.bfloat16})
 
     def _call(self, prompt, stop=None):
